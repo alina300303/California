@@ -4,10 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        
+        <div class="container">
+            <div class="header__box">
+        <img src="image/IMAGE (1).svg" alt="">
+        <ul>
+            <li>all products</li>
+            <li>Solutions</li>
+            <li>ABOUT</li>
+            <li>Support</li>
+        </ul>
+        <div class="imgs__header">
+            <img src="image/IMAGE (22).png" alt="">
+            <img src="image/IMAGE (23).png" alt="">
+        </div>
+        </div>
+    </div>
     </header>
+    <main>
+        <section class="carousel">
+            <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="carousel__box">
+                        <div class="carousel__left">
+                            <h1>The new phones are here take a look.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                            <button>Explore</button>
+                        </div>
+                        <div class="carousel__right">
+                            <img src="image/IMAGE (24).png" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="carousel__box">
+                        <div class="carousel__left">
+                            <h1>The new phones are here take a look.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                            <button>Explore</button>
+                        </div>
+                        <div class="carousel__right">
+                            <img src="image/IMAGE (24).png" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="carousel__box">
+                        <div class="carousel__left">
+                            <h1>The new phones are here take a look.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                            <button>Explore</button>
+                        </div>
+                        <div class="carousel__right">
+                            <img src="image/IMAGE (24).png" alt="">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+        </section>
+        <section class="offers">
+            <div class="container">
+                <div class="offers__title">
+                <h2>Shop our latest offers and categories</h2>
+                    <p class="p_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                    <div class="offers__box">
+                <div class="offers__left">
+                        <img class="laptop" src="image/IMAGE (27).png" alt="laptop">
+                         <div class="offers_p">
+                            <p class="p_one">Laptops</p>
+                            <p class="p_two">True Laptop </br> Solution</p>
+                        </div>
+                </div>
+                <div class="offers__right">
+
+                </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          loop:true,
+          scrollbar: {
+        el: ".swiper-scrollbar",
+        hide: true,
+      },
+        });
+      </script>
 </body>
 </html>

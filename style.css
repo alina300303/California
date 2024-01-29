@@ -12,8 +12,62 @@
 }
 
 
-
-
+/* Nursultan */
+.most{
+    padding: 72px 0 28px;
+}
+.most h3{
+    color: #000;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+.most__text{
+    color: #000;
+    font-family: "Readex Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    margin: 9px 0 59px;
+}
+.most__line__box{
+    width: 302.5px;
+    height: 396px;
+}
+.most__line__box h4{
+    color: #000;
+    font-family: "Readex Pro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+.most__line__box p{
+    color: #4B4B4B;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    margin: 9px 0 25px;
+}
+.most__line__box h6{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+.most__line{
+    display: flex;
+    column-gap: 28px;
+}
 
 
 /* Bekzhan */

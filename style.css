@@ -1,28 +1,32 @@
-<<<<<<< HEAD
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     list-style: none;
 }
-.container{
+
+.container {
     width: 1440px;
     margin: 0 auto;
 }
-header{
+
+header {
     padding: 30px 0;
 }
-.header__box{
+
+.header__box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #000;
 }
-.header__box ul{
+
+.header__box ul {
     display: flex;
     column-gap: 33px;
 }
-.header__box li{
+
+.header__box li {
     font-size: 14px;
     font-weight: 400;
     line-height: 16.8px;
@@ -30,41 +34,49 @@ header{
     cursor: pointer;
     position: relative;
 }
-.header__box li:hover::after{
+
+.header__box li:hover::after {
     content: "\25BC";
     position: absolute;
     bottom: 0px;
     right: -15px;
 }
-.imgs__header{
+
+.imgs__header {
     display: flex;
     column-gap: 21px;
 }
-.carousel{
+
+.carousel {
     padding: 60px 0 75px;
 }
-.carousel__box{
+
+.carousel__box {
     background-color: rgb(220, 229, 226);
     display: flex;
     align-items: center;
     border-radius: 30px;
 }
-.carousel__box h1{
+
+.carousel__box h1 {
     font-size: 58px;
     font-weight: 400;
-    line-height: 69.6px; 
+    line-height: 69.6px;
     font-family: "Readex Pro";
 }
-.carousel__box p{
+
+.carousel__box p {
     font-size: 16px;
     font-weight: 400;
     line-height: 19.2px;
     margin: 19px 0 30px;
 }
-.carousel__left{
+
+.carousel__left {
     margin: 0 132px 0px 56px;
 }
-.carousel__box button{
+
+.carousel__box button {
     width: 170px;
     height: 50px;
     border-radius: 200px;
@@ -75,111 +87,143 @@ header{
     line-height: 21.6px;
 }
 
-.offers__box {
-    width: 100%;
+.offers h2 {
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52.5px;
+    margin-bottom: 5px;
+}
+
+.p_title {
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
 }
 
 .offers__left {
-    width: 45%;
+    padding: 0 42px 0 42px;
+    width: 613px;
     height: 472px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: #FFFAFA;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7),
-    inset 0 0 20px rgba(255, 255, 255, 0.7);
+        inset 0 0 20px rgba(255, 255, 255, 0.7);
+    flex-direction: column;
+    align-content: space-between;
 }
 
+.offers__watch {
+    height: 270px;
+    width: 616px;
+    margin-top: 93px;
+    margin-left: -43px;
+    flex-direction: row;
+}
+
+.watch_img {
+    height: 270px;
+    width: 381px;
+}
+
+.watch_p {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
 .laptop {
-    width: 500px;
+    width: 90%;
     height: 377px;
 }
 
-.offers_p{
+.p_laptop,
+.p_phone {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.2px;
+    width: 100%;
+}
+
+.p_laptop,
+.p_solution {
+    text-align: end;
+}
+
+.p_phone,
+.p_life {
+    text-align: center;
+}
+
+.p_phone {
+    margin-top: 41px;
+}
+
+.p_solution,
+.p_life {
+    font-family: "Readex Pro";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    width: 100%;
+}
+
+.offers_p {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
-    align-items: center;
 }
-.p_one {
+
+.offers__box {
+    margin-top: 55px;
+    margin-left: 19%;
+    margin-right: 5%;
     display: flex;
-    width: 100%;
-    height: 0;
-    margin-right: 42px;
-    color: #000;
-    font-size: 15px;
-    align-items: start;
-    justify-content: end;
+    flex-wrap: wrap;
 }
 
-.p_two {
-    height: 0;
-    width: 100%;
-    margin-right: 42px;
-    color: #000;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    text-align: end;
-}
-.offers__left > img {
-    margin-left: 42px;
-    width: 80%;
-}
-
-
-.laptop_text {
-    height: 30%;
-    width: 50%;
-    margin-left: auto;
-}
-.offers__title {
-    width: 90%;
-}
-
-.offers__title h2 {
-    color: #000;
-    text-align: center;
-    font-family: "Readex Pro";
-    font-size: 62px;
-    font-style: normal;
-    font-weight: 400;
-    height: 33px;
-}
-.p_title{
-    width: 628px;
-    color: #000;
-    text-align: center;
-    font-family: "Readex Pro";
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16.8px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 56px;
-}
-=======
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Readex+Pro:wght@160..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
+
+.container {
     width: 1294px;
     margin: 0 auto;
 }
 
+.offers__right {
+    width: 20%;
+    height: 792px;
+    background-color: #FFFAFA;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7),
+        inset 0 0 20px rgba(255, 255, 255, 0.7);
+    margin-left: 16px;
+}
+
+.offer_phone {
+    width: 100%;
+    margin-top: 30%;
+}
+
+.tablet {
+    margin-top: 42px;
+}
+
+.p_tablet {
+    margin-top: 30%;
+}
 
 /* Nursultan */
-.most{
+.most {
     padding: 72px 0 28px;
 }
-.most h3{
+
+.most h3 {
     color: #000;
     text-align: center;
     font-family: "Readex Pro";
@@ -188,7 +232,8 @@ header{
     font-weight: 400;
     line-height: 52.5px;
 }
-.most__text{
+
+.most__text {
     color: #000;
     font-family: "Readex Pro";
     font-size: 13px;
@@ -198,11 +243,13 @@ header{
     text-align: center;
     margin: 9px 0 59px;
 }
-.most__line__box{
+
+.most__line__box {
     width: 302.5px;
     height: 396px;
 }
-.most__line__box h4{
+
+.most__line__box h4 {
     color: #000;
     font-family: "Readex Pro";
     font-size: 22px;
@@ -210,7 +257,8 @@ header{
     font-weight: 400;
     line-height: 27.5px;
 }
-.most__line__box p{
+
+.most__line__box p {
     color: #4B4B4B;
     font-family: Inter;
     font-size: 14px;
@@ -219,7 +267,8 @@ header{
     line-height: 16.8px;
     margin: 9px 0 25px;
 }
-.most__line__box h6{
+
+.most__line__box h6 {
     color: #000;
     font-family: Inter;
     font-size: 18px;
@@ -227,14 +276,15 @@ header{
     font-weight: 400;
     line-height: 21.6px;
 }
-.most__line{
+
+.most__line {
     display: flex;
     column-gap: 28px;
 }
 
 
 /* Bekzhan */
-.search__list h2{
+.search__list h2 {
     font-family: Readex Pro;
     font-size: 42px;
     font-weight: 400;
@@ -242,28 +292,32 @@ header{
     letter-spacing: 0em;
     text-align: center;
 }
-.search__list{
+
+.search__list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 24px;
 }
-.search__input{
+
+.search__input {
     width: 650px;
     height: 60px;
-    background:linear-gradient(0deg, #F8F9FA, #F8F9FA);
+    background: linear-gradient(0deg, #F8F9FA, #F8F9FA);
     border: 1px solid #C5C5C5;
     border-radius: 100px;
     display: flex;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
-    margin-top:15px ;
+    margin-top: 15px;
 }
-.search__input img{
-    margin:0 20px;
+
+.search__input img {
+    margin: 0 20px;
 }
-.main__search input{
+
+.main__search input {
     text-align: center;
     font-family: Inter;
     font-size: 14px;
@@ -275,16 +329,19 @@ header{
     background: none;
     outline: none;
 }
-.main__search input::placeholder{
+
+.main__search input::placeholder {
     color: black;
 }
-.list__btns{
+
+.list__btns {
     align-items: center;
     text-align: center;
     width: 660px;
     margin-top: 18px;
 }
-.list__btns button{
+
+.list__btns button {
     cursor: pointer;
     font-family: Inter;
     font-size: 14px;
@@ -298,11 +355,13 @@ header{
     background: #FFF;
     padding: 12px 22px;
 }
-.banner__registration{
+
+.banner__registration {
     display: flex;
     justify-content: center;
 }
-.search__banner{
+
+.search__banner {
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -313,23 +372,27 @@ header{
     padding: 47px;
     border-radius: 16px;
 }
-.search__banner h2{
+
+.search__banner h2 {
     text-align: center;
     font-family: "Readex Pro";
     font-size: 42px;
     font-weight: 400;
     line-height: 52.5px;
 }
-.search__banner p{
+
+.search__banner p {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19.2px; 
+    line-height: 19.2px;
 }
-.search__banner img{
+
+.search__banner img {
     margin: 14px 0;
 }
-.email__input{
+
+.email__input {
     width: 400px;
     height: 50px;
     border-radius: 55px;
@@ -338,20 +401,24 @@ header{
     display: flex;
     justify-content: left;
 }
-.email__input input{
+
+.email__input input {
     width: 285px;
 }
-.email__input input::placeholder{
+
+.email__input input::placeholder {
     color: black;
 }
-.email__input button{
+
+.email__input button {
     background: black;
     color: white;
     border: none;
     width: 115px;
     border-radius: 0px 200px 200px 0px;
-} 
-.footer__content{
+}
+
+.footer__content {
     display: flex;
     justify-content: center;
     font-family: Inter;
@@ -359,10 +426,12 @@ header{
     padding: 45px;
     margin-top: 20px;
 }
-.footer__logo{
+
+.footer__logo {
     width: 395px;
 }
-.footer__logo p{
+
+.footer__logo p {
     margin-top: 20px;
     font-family: Inter;
     font-size: 16px;
@@ -371,19 +440,21 @@ header{
     letter-spacing: 0em;
     text-align: left;
 }
-.footer__columns{
+
+.footer__columns {
     display: flex;
     justify-content: space-between;
 }
-.footer__column{
+
+.footer__column {
     width: 197px;
     display: flex;
     flex-direction: column;
 }
-.footer__column a{
+
+.footer__column a {
     text-decoration: none;
     color: #000;
-    margin-top:20px;
+    margin-top: 20px;
     row-gap: 15px;
 }
->>>>>>> c4c2ddeb6d32dc05ebac9b1935f7a095a12e2b95

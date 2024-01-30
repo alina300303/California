@@ -46,7 +46,7 @@
                                     <h1>The new phones are here take a look.</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
                                         aliquam, tempor. Faucibus morbi turpis.</p>
-                                    <button>Explore</button>
+                                    <button  onclick="popup()">Explore</button>
                                 </div>
                                 <div class="carousel__right">
                                     <img src="image/IMAGE (24).png" alt="">
@@ -84,6 +84,23 @@
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-scrollbar"></div>
                 </div>
+                <form class="register" action="">
+                    <h2>Узнать больше</h2>
+                    <ul>
+                        <li>Уже есть аккаунт?</li>
+                        <li>Войти</li>
+                    </ul>
+                    <label>
+                        <input type="email" placeholder="Эл.почта">
+                    </label>
+                    <label>
+                        <input type="password" placeholder="Пароль">
+                    </label>
+                    <button>Узнать</button>
+                    <h3>Или перейдите по</h3>
+                    <img src="image/icons8-facebook-новый-48.png" alt="">
+                    <img src="image/icons8-google-48.png" alt="">
+                </form> 
         </section>
         <section class="offers">
             <div class="container">
@@ -266,7 +283,7 @@
         </div>
     </footer>
 
-
+    <script src="js.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {

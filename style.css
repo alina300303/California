@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -33,6 +36,7 @@ header {
     text-transform: uppercase;
     cursor: pointer;
     position: relative;
+    font-family: Inter;
 }
 
 .header__box li:hover::after {
@@ -51,6 +55,7 @@ header {
 }
 
 .carousel {
+    position: relative;
     padding: 60px 0 75px;
 }
 
@@ -78,7 +83,9 @@ header {
 .carousel__left {
     margin: 0 132px 0px 56px;
 }
-
+.carousel__left p{
+    font-family: Inter;
+}
 .carousel__box button {
     width: 170px;
     height: 50px;
@@ -97,11 +104,13 @@ header {
     text-align: center;
     position: absolute;
     border-radius: 10px;
-    left: 50%;
-    top: 170px;
     display: none;
     z-index: 100;
     border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
 }
 .register.active{
     display: block;
@@ -154,14 +163,16 @@ header {
     margin-bottom: 5px;
 }
 
-.p_title {
+.p_title{
     text-align: center;
     font-family: "Readex Pro";
     font-size: 14px;
     font-weight: 400;
     line-height: 16.8px;
 }
-
+.p_title{
+    font-family: "Readex Pro";
+}
 .offers__left {
     padding: 0 42px 0 42px;
     width: 613px;
@@ -310,7 +321,9 @@ header {
     text-align: center;
     margin: 9px 0 59px;
 }
-
+.most__lines{
+    display: flex;
+}
 .most__line__box {
     width: 302.5px;
     height: 396px;
@@ -385,6 +398,7 @@ header {
 }
 .around__line{
     display: flex;
+    justify-content: space-between;
 }
 .around__box{
     width: 413px;
@@ -437,8 +451,85 @@ header {
 }
 
 
+#hero{
+    width: 100%;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 47px;
+}
+#hero h2{
+    width: 497px;
+    color: #000;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+.hero_p p{
+   width: 422px;
+   color: #000;
+   text-align: center;
+   font-family: "Readex Pro";
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 16.8px;
+}
+
+#block1{
+    height: 350px;
+    width: 485px;
+    display: flex;
+    flex-direction: column;
+}
+.hero__content{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.hero__title{
+    text-align: left;
+}
+.hero__title p{
+    width: 569px;
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
+    word-spacing: 3px;
+}
+.button__bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+#See_All{
+    width: 79px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+#arrow{
+    width: 30px;
+    height: 28px;
+}
+
+
+
+
+
 /* Bekzhan */
-.search__list h2 {
+.search__list h2{
     font-family: Readex Pro;
     font-size: 42px;
     font-weight: 400;
@@ -446,32 +537,28 @@ header {
     letter-spacing: 0em;
     text-align: center;
 }
-
-.search__list {
+.search__list{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 24px;
 }
-
-.search__input {
+.search__input{
     width: 650px;
     height: 60px;
-    background: linear-gradient(0deg, #F8F9FA, #F8F9FA);
+    background:linear-gradient(0deg, #F8F9FA, #F8F9FA);
     border: 1px solid #C5C5C5;
     border-radius: 100px;
     display: flex;
-    justify-content: left;
+    justify-content:left;
     align-items: center;
-    margin-top: 15px;
+    margin-top:15px ;
 }
-
-.search__input img {
-    margin: 0 20px;
+.search__input img{
+    margin:0 20px;
 }
-
-.main__search input {
+.main__search input{
     text-align: center;
     font-family: Inter;
     font-size: 14px;
@@ -483,19 +570,16 @@ header {
     background: none;
     outline: none;
 }
-
-.main__search input::placeholder {
+.main__search input::placeholder{
     color: black;
 }
-
-.list__btns {
+.list__btns{
     align-items: center;
     text-align: center;
     width: 660px;
     margin-top: 18px;
 }
-
-.list__btns button {
+.list__btns button{
     cursor: pointer;
     font-family: Inter;
     font-size: 14px;
@@ -510,12 +594,122 @@ header {
     padding: 12px 22px;
 }
 
-.banner__registration {
+.main__products{
+    margin-top: 70px;
+}
+.products__title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.products__title h2{
+    text-align: center;
+    font-family: "Hind Siliguri";
+    font-size: 44px;
+    font-weight: 600;
+}
+.products__menu{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+.products__title a:nth-child(1){
+    color: var(--c-72535, #C72535);
+}
+.products__title a{
+    color: #000;
+    text-decoration: none;
+    font-family: "Hind Siliguri";
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.product__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px
+
+}
+.product__card{
+    cursor: pointer;
+    width: 360px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+}
+.product__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+}
+.order__title{
+    text-align: left;
+    padding: 35px;
+}
+.order__title h2{
+    font-family: "Hind Siliguri";
+    font-size: 25px;
+    font-weight: 600;
+}
+.product__card:hover{
+    transform: rotate(20px);
+    transition: 1s;
+}
+.product__card:hover{
+    box-shadow: -15px 14px 20px 1px rgba(75, 132, 176, 0.39);
+}
+.product__card:hover h2{
+    display: none;
+}
+.product__card:hover .order__images{
+    display: flex;
+    justify-content: space-between;
+}
+.product__card:hover .order__title{
+    background: #FAFAFA;
+    
+}
+.product__card:hover .order__spans{
+    margin-top:15px;
+}
+.span{
+   
+    text-align: center;
+    font-family: "Hind Siliguri";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.span__sale{
+    text-align: center;
+    font-family: "Hind Siliguri";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration-line:line-through;
+}
+.order__images{
+    display: none;
+    align-items: center;
+    column-gap: 70px;    
+}
+.rating__stars{
+    display: flex;
+}
+.star__item{
+    font-size: 20px;
+    color:#DCE5E2;
+    cursor: pointer;
+    background: none;
+    border: none;
+    transition: 0.5s;
+}
+
+.banner__registration{
     display: flex;
     justify-content: center;
 }
-
-.search__banner {
+.search__banner{
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -526,27 +720,23 @@ header {
     padding: 47px;
     border-radius: 16px;
 }
-
-.search__banner h2 {
+.search__banner h2{
     text-align: center;
     font-family: "Readex Pro";
     font-size: 42px;
     font-weight: 400;
     line-height: 52.5px;
 }
-
-.search__banner p {
+.search__banner p{
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19.2px;
+    line-height: 19.2px; 
 }
-
-.search__banner img {
+.search__banner img{
     margin: 14px 0;
 }
-
-.email__input {
+.email__input{
     width: 400px;
     height: 50px;
     border-radius: 55px;
@@ -555,24 +745,20 @@ header {
     display: flex;
     justify-content: left;
 }
-
-.email__input input {
+.email__input input{
     width: 285px;
 }
-
-.email__input input::placeholder {
+.email__input input::placeholder{
     color: black;
 }
-
-.email__input button {
+.email__input button{
     background: black;
     color: white;
     border: none;
     width: 115px;
     border-radius: 0px 200px 200px 0px;
-}
-
-.footer__content {
+} 
+.footer__content{
     display: flex;
     justify-content: center;
     font-family: Inter;
@@ -580,12 +766,10 @@ header {
     padding: 45px;
     margin-top: 20px;
 }
-
-.footer__logo {
+.footer__logo{
     width: 395px;
 }
-
-.footer__logo p {
+.footer__logo p{
     margin-top: 20px;
     font-family: Inter;
     font-size: 16px;
@@ -594,22 +778,19 @@ header {
     letter-spacing: 0em;
     text-align: left;
 }
-
-.footer__columns {
+.footer__columns{
     display: flex;
     justify-content: space-between;
 }
-
-.footer__column {
+.footer__column{
     width: 197px;
     display: flex;
     flex-direction: column;
 }
-
-.footer__column a {
+.footer__column a{
     text-decoration: none;
     color: #000;
-    margin-top: 20px;
+    margin-top:20px;
     row-gap: 15px;
 }
 .header__input{

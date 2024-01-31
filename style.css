@@ -41,10 +41,13 @@ header {
     bottom: 0px;
     right: -15px;
 }
-
+ю
 .imgs__header {
     display: flex;
     column-gap: 21px;
+}
+.imgs__header:hover img{
+    cursor: pointer;
 }
 
 .carousel {
@@ -609,3 +612,51 @@ header {
     margin-top: 20px;
     row-gap: 15px;
 }
+.header__input{
+    /* width: 400px;
+    background: gray; */
+    position: relative;
+}
+.input__search{
+    position: absolute;
+    top: -29px;
+    right: 320px;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 40px 0;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    outline: none;
+}
+.input__search.active{
+    display: block;
+    animation: ani 1s forwards;
+    transform: translateY(-150%);
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 500px;
+    right: 155px;
+}
+.anchor{
+    position: relative;
+}
+
+@keyframes ani {
+    0% {transform: translateY(-150%);}
+    100% {transform: translateY(0);}
+  }

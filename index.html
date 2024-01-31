@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -128,20 +129,24 @@
             <div class="container">
                 <h3>Save on our most selled items.</h3>
                 <p class="most__text">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
-                <div class="most__line">
-                    <div class="most__line__box">
-                        <img src="images/IMAGE (8).png" alt="">
-                        <h4>MacBook Pro 13</h4>
-                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-                        <h6>$ 1,200.00 USD</h6>
-                    </div>
-                    <div class="most__line__box">
-                        <img src="images/IMAGE (9).png" alt="">
-                        <h4>Smart Galaxy Watch 3</h4>
-                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                            velit...</p>
-                        <h6>$ 199.00 USD</h6>
-                    </div>
+                <div class="most__lines">
+                    <div class="most__line">
+                        <div class="most__line__box">
+                            <img src="images/IMAGE (8).png" alt="">
+                            <h4>MacBook Pro 13</h4>
+                            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+                            <h6>$ 1,200.00 USD</h6>
+                        </div>
+                        <div class="most__line__box">
+                            <img src="images/IMAGE (9).png" alt="">
+                            <h4>Smart Galaxy Watch 3</h4>
+                            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit...</p>
+                            <h6>$ 199.00 USD</h6>
+                        </div>
+                </div>
+                <div class="most__lines">
+                    <div class="most__line">
                     <div class="most__line__box">
                         <img src="images/IMAGE (10).png" alt="">
                         <h4>MacBook Air M1</h4>
@@ -156,6 +161,8 @@
                             velit...</p>
                         <h6>$ 610.00 USD</h6>
                     </div>
+                    </div>
+                </div>
                 </div>
                 <section class="around">
                     <div class="container">
@@ -208,30 +215,208 @@
                         <button>Mobile</button>
                     </div>
                 </div>
-
+            </div>
+            <section class="main__products">
+                <div class="container">
+                    <div class="products__title">
+                        <h2>Popular Products</h2>
+                        <div class="products__menu">
+                            <a href="">Recent arrival</a>
+                            <a href="">best sellers</a>
+                            <a href="">special offers</a>
+                            <a href="">featured in</a>
+                        </div>
+                    </div>
+                    <div class="main__cards">
+                        <div class="product__cards">
+                            <div class="product__card">
+                                <div class="product__img">
+                                    <img src="./images/Rectangle 85.png" alt="">
+                                </div>
+                                <div class="order__title">
+                                    <h2>Mouth</h2>
+                                <div class="order__images">
+                                    <img src="./images/Vector (1).png" alt="">
+                                    <img src="./images/Group 55.png" alt="">
+                                    <img src="./images/Vector (2).png" alt="">
+                                    <img src="./images/Group 53.png" alt="">
+                                </div>
+                                <div class="order__spans">
+                                    <span class="span">$ 249.99</span>
+                                    <span>/</span>
+                                    <span class="span__sale">$ 249.99</span>
+                                </div>
+                                    <div class="rating__stars">
+                                        <button class="star__item" id="1" onclick="star_1()">★</button>
+                                        <button class="star__item" id="2" onclick="star_2()">★</button>
+                                        <button class="star__item" id="3" onclick="star_3()">★</button>
+                                        <button class="star__item" id="4" onclick="star_4()">★</button>
+                                        <button class="star__item" id="5" onclick="star_5()">★</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product__card">
+                                <div class="product__img">
+                                    <img src="./images/Rectangle 86.png" alt="">
+                                </div>
+                                <div class="order__title">
+                                    <h2>Black iPhone Speaker</h2>
+                                <div class="order__images">
+                                    <img src="./images/Vector (1).png" alt="">
+                                    <img src="./images/Group 55.png" alt="">
+                                    <img src="./images/Vector (2).png" alt="">
+                                    <img src="./images/Group 53.png" alt="">
+                                </div>
+                                <div class="order__spans">
+                                    <span class="span">$ 249.99</span>
+                                    <span>/</span>
+                                    <span class="span__sale">$ 249.99</span>
+                                </div>
+                                    <div class="rating__stars">
+                                        <button class="star__item" id="1" onclick="star_1()">★</button>
+                                        <button class="star__item" id="2" onclick="star_2()">★</button>
+                                        <button class="star__item" id="3" onclick="star_3()">★</button>
+                                        <button class="star__item" id="4" onclick="star_4()">★</button>
+                                        <button class="star__item" id="5" onclick="star_5()">★</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product__card">
+                                <div class="product__img">
+                                    <img src="./images/51lpfDERgyL 1.png" alt="">
+                                </div>
+                                <div class="order__title">
+                                    <h2>iOS Keyboard</h2>
+                                <div class="order__images">
+                                    <img src="./images/Vector (1).png" alt="">
+                                    <img src="./images/Group 55.png" alt="">
+                                    <img src="./images/Vector (2).png" alt="">
+                                    <img src="./images/Group 53.png" alt="">
+                                </div>
+                                <div class="order__spans">
+                                    <span class="span">$ 249.99</span>
+                                    <span>/</span>
+                                    <span class="span__sale">$ 249.99</span>
+                                </div>
+                                    <div class="rating__stars">
+                                        <button class="star__item" id="1" onclick="star_1()">★</button>
+                                        <button class="star__item" id="2" onclick="star_2()">★</button>
+                                        <button class="star__item" id="3" onclick="star_3()">★</button>
+                                        <button class="star__item" id="4" onclick="star_4()">★</button>
+                                        <button class="star__item" id="5" onclick="star_5()">★</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__cards">
+                            <div class="product__card">
+                                <div class="product__img">
+                                    <img src="./images/Rectangle 90.png" alt="">
+                                </div>
+                                <div class="order__title">
+                                    <h2>Mackbook Pro</h2>
+                                <div class="order__images">
+                                    <img src="./images/Vector (1).png" alt="">
+                                    <img src="./images/Group 55.png" alt="">
+                                    <img src="./images/Vector (2).png" alt="">
+                                    <img src="./images/Group 53.png" alt="">
+                                </div>
+                                <div class="order__spans">
+                                    <span class="span">$ 2049.99</span>
+                                    <span>/</span>
+                                    <span class="span__sale">$ 249.99</span>
+                                </div>
+                                    <div class="rating__stars">
+                                        <button class="star__item" id="1" onclick="star_1()">★</button>
+                                        <button class="star__item" id="2" onclick="star_2()">★</button>
+                                        <button class="star__item" id="3" onclick="star_3()">★</button>
+                                        <button class="star__item" id="4" onclick="star_4()">★</button>
+                                        <button class="star__item" id="5" onclick="star_5()">★</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product__card">
+                                <div class="product__img">
+                                    <img src="./images/Rectangle 89.png" alt="">
+                                </div>
+                                <div class="order__title">
+                                    <h2>Black Headphone</h2>
+                                <div class="order__images">
+                                    <img src="./images/Vector (1).png" alt="">
+                                    <img src="./images/Group 55.png" alt="">
+                                    <img src="./images/Vector (2).png" alt="">
+                                    <img src="./images/Group 53.png" alt="">
+                                </div>
+                                <div class="order__spans">
+                                    <span class="span">$ 249.99</span>
+                                    <span>/</span>
+                                    <span class="span__sale">$ 249.99</span>
+                                </div>
+                                    <div class="rating__stars">
+                                        <button class="star__item" id="1" onclick="star_1()">★</button>
+                                        <button class="star__item" id="2" onclick="star_2()">★</button>
+                                        <button class="star__item" id="3" onclick="star_3()">★</button>
+                                        <button class="star__item" id="4" onclick="star_4()">★</button>
+                                        <button class="star__item" id="5" onclick="star_5()">★</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product__card">
+                                <div class="product__img">
+                                    <img src="./images/Rectangle 88.png" alt="">
+                                </div>
+                                <div class="order__title">
+                                    <h2>Rectangle 88</h2>
+                                <div class="order__images">
+                                    <img src="./images/Vector (1).png" alt="">
+                                    <img src="./images/Group 55.png" alt="">
+                                    <img src="./images/Vector (2).png" alt="">
+                                    <img src="./images/Group 53.png" alt="">
+                                </div>
+                                <div class="order__spans">
+                                    <span class="span">$ 249.99</span>
+                                    <span>/</span>
+                                    <span class="span__sale">$ 249.99</span>
+                                </div>
+                                    <div class="rating__stars">
+                                        <button class="star__item" id="1" onclick="star_1()">★</button>
+                                        <button class="star__item" id="2" onclick="star_2()">★</button>
+                                        <button class="star__item" id="3" onclick="star_3()">★</button>
+                                        <button class="star__item" id="4" onclick="star_4()">★</button>
+                                        <button class="star__item" id="5" onclick="star_5()">★</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </section>
+            </div>
             </div>
             <div class="banner__registration">
-                <div class="search__banner">
-                    <h2>Never miss a thing</h2>
-                    <p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
-                    <img src="./images/IMAGE (1).png" alt="">
-                    <div class="email__input">
-                        <div>
-
+                    <div class="search__banner">
+                        <h2>Never miss a thing</h2>
+                        <p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+                        <img src="./images/IMAGE (1).png" alt="">
+                        <div class="email__input">
+                            <div>
+                                
+                            </div>
+                            <input type="email" placeholder="Your email">
+                            <button class="">Sign Up</button>
                         </div>
-                        <input type="email" placeholder="Your email">
-                        <button class="">Sign Up</button>
                     </div>
-                </div>
-            </div>
+                    </div>
         </section>
     </main>
-    <footer>
-        <div class="footer__content">
+    <div class="footer__content">
             <div class="footer__logo">
                 <img src="./images/IMAGE (2).png" alt="">
                 <p>Sign up for texts to be notified about <br>our best offers on the perfect gifts.</p>
-            </div>
+            </div>  
             <div class="footer__columns">
                 <div class="footer__column">
                     <h3>All products</h3>
@@ -261,9 +446,8 @@
                 </div>
             </div>
         </div>
-    </footer>
-
-
+</footer>
+    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {

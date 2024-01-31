@@ -1,0 +1,126 @@
+@media(max-width:1420px){
+}
+@media(max-width:1320px){
+    .container{
+        width: 1100px;
+    }
+    .carousel__right img{
+        width: 400px;
+    }
+    .carousel__left h1{
+        font-size: 50px;
+    }
+    .most__line__box{
+        width: 280px;
+    }
+    .around__box{
+        width: 350px;
+    }
+}
+@media(max-width:1270px){
+    .most__lines{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .most__line{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:1120px){
+    .container{
+        width: 900px;
+    }
+    .carousel__right img{
+        width: 400px;
+    }
+    .carousel__left h1{
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .carousel__left p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .around__line{
+        flex-wrap: wrap;
+    }
+    .around__line:nth-child(3){
+        display: flex;
+        justify-content: center;
+        column-gap: 50px;
+        row-gap: 50px;
+    }
+    .around__box{
+        width: 320px;
+    }
+    .main__cards{
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+    .product__cards{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    } 
+    .footer__column{
+        width: 150px;
+    }
+}
+@media(max-width:950px){
+    .container{
+        width: 800px;
+    }
+    .carousel__right img{
+        width: 350px;
+    }
+    .carousel__left h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .carousel__left button{
+        font-size: 16px;
+    }
+    .search__banner{
+        width: 700px;
+    }
+    .footer__logo{
+        width: 300px;
+    }
+    .footer__column{
+        width: 130px;
+    }
+}
+@media (max-width:850px){
+    .footer__logo p{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer__column{
+        width: 120px;
+    }
+}
+@media (max-width:820px) {
+    .container{
+        width: 700px;
+    }
+    .footer__logo p{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer__column{
+        width: 120px;
+    }
+    .carousel__right img{
+        width: 380px;
+    }
+    .carousel__left h1{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .carousel__left P{
+        font-size: 13px;
+    }
+}

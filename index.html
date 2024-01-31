@@ -47,7 +47,7 @@
                                     <h1>The new phones are here take a look.</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
                                         aliquam, tempor. Faucibus morbi turpis.</p>
-                                    <button>Explore</button>
+                                    <button  onclick="popup()">Explore</button>
                                 </div>
                                 <div class="carousel__right">
                                     <img src="image/IMAGE (24).png" alt="">
@@ -85,6 +85,23 @@
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-scrollbar"></div>
                 </div>
+                <form class="register" action="">
+                    <h2>Узнать больше</h2>
+                    <ul>
+                        <li>Уже есть аккаунт?</li>
+                        <li>Войти</li>
+                    </ul>
+                    <label>
+                        <input type="email" placeholder="Эл.почта">
+                    </label>
+                    <label>
+                        <input type="password" placeholder="Пароль">
+                    </label>
+                    <button>Узнать</button>
+                    <h3>Или перейдите по</h3>
+                    <img src="image/icons8-facebook-новый-48.png" alt="">
+                    <img src="image/icons8-google-48.png" alt="">
+                </form> 
         </section>
         <section class="offers">
             <div class="container">
@@ -94,31 +111,34 @@
                     elit.</p>
             </div>
             <div class="offers__box">
-                <div class="offers__left">
-                    <img class="laptop" src="image/IMAGE (27).png" alt="laptop">
-                    <div class="offers_p">
-                        <p class="p_laptop">Laptops</p>
-                        <h5 class="p_solution">True Laptop </br> Solution</h5>
-                    </div>
-                    <div class="offers__left offers__watch">
-                        <img class="watch_img" src="./image/watch.png" alt="watch">
-                        <div class="watch_p">
-                            <p class="p_laptop watch">Watch</p>
-                            <h5 class="p_solution stylisht">Not just </br>stylisht</h5>
+                <div class="left">
+                    <div class="offers__left">
+                        <img class="laptop" src="image/IMAGE (27).png" alt="laptop">
+                        <div class="offers_p">
+                            <p class="p_laptop">Laptops</p>
+                            <h5 class="p_solution">True Laptop </br> Solution</h5>
+                        </div>
+                        <div class="offers__left offers__watch">
+                            <img class="watch_img" src="./image/watch.png" alt="watch">
+                            <div class="watch_p">
+                                <p class="p_laptop watch">Watch</p>
+                                <h5 class="p_solution stylisht">Not just </br>stylisht</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="offers__right">
-                    <img class="offer_phone" src="./image/phone.png" alt="phone">
-                    <p class="p_phone">Phones</p>
-                    <h5 class="p_life">Your day to day </br> life</h5>
+                <div class="right">
+                    <div class="offers__right">
+                        <img class="offer_phone" src="./image/phone.png" alt="phone">
+                        <p class="p_phone">Phones</p>
+                        <h5 class="p_life">Your day to day </br> life</h5>
+                    </div>
+                    <div class="offers__right">
+                        <p class="p_phone p_tablet">Tablet</p>
+                        <h5 class="p_life">Empower your </br> work</h5>
+                        <img class="offer_phone tablet" src="./image/phone2.png" alt="tablet">
+                    </div>
                 </div>
-                <div class="offers__right">
-                    <p class="p_phone p_tablet">Tablet</p>
-                    <h5 class="p_life">Empower your </br> work</h5>
-                    <img class="offer_phone tablet" src="./image/phone2.png" alt="tablet">
-                </div>
-
             </div>
         </section>
 
@@ -446,8 +466,9 @@
                 </div>
             </div>
         </div>
-</footer>
-    <script src="index.js"></script>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {

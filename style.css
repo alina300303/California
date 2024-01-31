@@ -330,11 +330,13 @@ header {
 }
 .most__line__box:hover{
     border-radius: 40px;
-    background: #afa9a986;
+    background: #9b959586;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     cursor: pointer;
+    padding: 15px;
+    transition: 0.5s;
 }
 
 .most__line__box h4 {
@@ -444,6 +446,83 @@ header {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7),
         inset 0 0 20px rgba(255, 255, 255, 0.7);    
 }
+
+
+#hero{
+    width: 100%;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 47px;
+}
+#hero h2{
+    width: 497px;
+    color: #000;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+.hero_p p{
+   width: 422px;
+   color: #000;
+   text-align: center;
+   font-family: "Readex Pro";
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 16.8px;
+}
+
+#block1{
+    height: 350px;
+    width: 485px;
+    display: flex;
+    flex-direction: column;
+}
+.hero__content{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.hero__title{
+    text-align: left;
+}
+.hero__title p{
+    width: 569px;
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
+    word-spacing: 3px;
+}
+.button__bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+#See_All{
+    width: 79px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+#arrow{
+    width: 30px;
+    height: 28px;
+}
+
+
+
 
 
 /* Bekzhan */
@@ -711,4 +790,3 @@ header {
     margin-top:20px;
     row-gap: 15px;
 }
-

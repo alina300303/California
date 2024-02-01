@@ -344,6 +344,7 @@ header {
     margin: 9px 0 59px;
 }
 .most__lines{
+    justify-content: space-around;
     display: flex;
 }
 .most__line__box {

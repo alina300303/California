@@ -20,20 +20,27 @@
 
 <body>
     <header>
+        <p><a name="top"></a></p>
         <div class="container">
             <div class="header__box">
-                <img src="image/IMAGE (1).svg" alt="">
-                <ul>
-                    <li><a href="#all">all products</a></li>
-                    <li>Solutions</li>
-                    <li>ABOUT</li>
-                    <li>Support</li>
-                </ul>
-                <div class="imgs__header">
-                    <img src="image/IMAGE (22).png" alt="">
-                    <img src="image/IMAGE (23).png" alt="">
+                <img class="header__logo" src="image/IMAGE (1).svg" alt="">
+                <div class="burger">
+                    <ul>
+                        <li><a href="#all">all products</a></li>
+                        <li>Solutions</li>
+                        <li>ABOUT</li>
+                        <li>Support</li>
+                    </ul>
+                    <div class="imgs__header">
+                        <img src="image/IMAGE (22).png" alt="" onclick="search_popup()">
+                        <img src="image/IMAGE (23).png" alt="">
+                    </div>
                 </div>
+                <div class="burger__btn" onclick="toggleBurger()"></div>
             </div>
+        </div>
+        <div class="header__input">
+            <input class="input__search" type="text" placeholder="search...">
         </div>
     </header>
     <main>
@@ -305,7 +312,7 @@
                                     <img src="./images/Rectangle 86.png" alt="">
                                 </div>
                                 <div class="order__title">
-                                    <h2>Black iPhone Speaker</h2>
+                                    <h2>iPhone Speaker</h2>
                                 <div class="order__images">
                                     <img src="./images/Vector (1).png" alt="">
                                     <img src="./images/Group 55.png" alt="">
@@ -446,15 +453,13 @@
                         <p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
                         <img src="./images/IMAGE (1).png" alt="">
                         <div class="email__input">
-                            <div>
-                                
-                            </div>
                             <input type="email" placeholder="Your email">
                             <button class="">Sign Up</button>
                         </div>
                     </div>
                     </div>
         </section>
+        <p class="anchor"><a href="#top"><i class="up"></i></a></p>
     </main>
     <footer>
     <div class="footer__content">

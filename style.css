@@ -697,6 +697,23 @@ header {
 .product__card:hover .order__spans{
     margin-top:15px;
 }
+.viewAll{
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.viewAll a{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: Hind Siliguri;
+font-size: 14px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+}
 .span{
    
     text-align: center;

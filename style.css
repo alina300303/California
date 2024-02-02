@@ -468,9 +468,10 @@ header {
 }
 .around__box button:hover{
     cursor: pointer;
-    background: #9b959586;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7),
-        inset 0 0 20px rgba(255, 255, 255, 0.7);    
+    background: #d1c8c886;
+    box-shadow: -15px 14px 20px 1px rgba(75, 132, 176, 0.39);
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.7),
+        inset 0 0 20px rgba(255, 255, 255, 0.7);     */
 }
 
 
@@ -830,13 +831,13 @@ header {
 }
 .input__search{
     position: absolute;
-    top: -29px;
-    right: 320px;
+    top: 20px;
+    right: 0;
     transform: translate(-50%, -50%);
     display: none;
     width: 200px;
     height: 25px;
-    border-radius: 40px 0;
+    border-radius: 20px;
     border: 1px solid black;
     text-align: center;
     font-weight: 600;
